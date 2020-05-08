@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import csv
 import os
 
-html = open("11.html").read()
-FILE = 'Files/MyGames.csv'
+html = open("D:\\Learning_First\\GitHub\\Parsing python\\data\\111.html").read()
+FILE = 'Files\\MyGames.csv'
 
 
 def get_content(html):
